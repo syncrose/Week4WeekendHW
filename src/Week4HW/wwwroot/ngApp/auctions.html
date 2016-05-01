@@ -1,0 +1,12 @@
+﻿<div class="row">
+    <div class="col-md-6 col-md-offset-3 text-center">
+        <h1>List of Auctions</h1>
+    </div>
+
+</div>
+
+<div class="row" ng-repeat="auction in controller.auctions">
+    <div class="col-md-12 col-md-offset-3">
+        <h3><a href="/auction/{{auction.id}}">{{auction.item}}</a></h3>
+    </div>
+</div> 
